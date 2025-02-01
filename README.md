@@ -33,12 +33,28 @@ Error Responses:
 - **Rate Limit Exceeded**: If the user tries to generate a keypair more than once in 24 hours.
 - **Invalid Prefix**: If the prefix is too long (more than 3 characters).
 
+## How to Use
+
+### Import into Phantom Wallet
+1. Open the **Phantom Wallet** extension.
+2. Click the **Import Wallet** option.
+3. Choose **Import with Secret Recovery Phrase**.
+4. Paste the recovery phrase (e.g., `act remind dizzy light warfare want hollow pilot around object suggest raw`) into the input field.
+
+The wallet will now appear with the generated Solana address.
+
+### Use as Mint Address with Solana Token
+1. Visit [Solana Token](https://solana-token.net).
+2. Navigate to the **Create Token** section.
+3. Paste the **public key** (e.g., `bobV7ag1mCnkhGPvQzr8Fri7X6rA5itJsV5Q1Hje8iR`) into the **Mint Address** field.
+4. Follow the on-screen instructions to create your token.
+
 ## Setup
 
 1. Clone the repository:
 
-    git clone https://github.com/yourusername/vanity-address-api.git
-    cd vanity-address-api
+    git clone https://github.com/sebastien3k/vero.git
+    cd vero
 
 2. Install dependencies:
 
@@ -49,3 +65,5 @@ Error Responses:
     python app.py
 
 ## License
+
+MIT License
