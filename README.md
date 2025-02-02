@@ -3,7 +3,7 @@
 This is a simple Flask-based API that allows you to generate Solana keypairs with a custom prefix or suffix using the `solana-keygen grind` command.
 
 ## How It Works
-The user provides a prefix (e.g., "bob") and specifies whether the address should start or end with that prefix. The API uses the `solana-keygen grind` command to generate a keypair that matches the prefix. The API is rate-limited to one request per day per user IP.
+The user provides a prefix (e.g., "bob") and specifies whether the address should start or end with that prefix. The API uses the `solana-keygen grind` command to generate a keypair that matches the prefix. The API is rate-limited to one request per four minutes per user IP.
 
 ## API Endpoint
 
